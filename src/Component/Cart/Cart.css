@@ -1,0 +1,99 @@
+.details-container {
+    padding: 20px;
+    display: flex;           /* Use flexbox */
+    flex-direction: column;  /* Arrange children in a column */
+    align-items: center;     /* Center children horizontally */
+    text-align: center;      /* Center text */
+}
+
+.details-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: color 0.3s ease; /* Transition for color change */
+}
+
+.details-title:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.details-price {
+    font-size: 20px;
+    color: green;
+    margin: 5px 0;
+    transition: transform 0.3s ease; /* Transition for scale effect */
+}
+
+.details-price:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.details-description {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    transition: opacity 0.3s ease; /* Transition for opacity change */
+}
+
+.details-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Transition for scaling image */
+}
+
+.details-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+/* Style for the ADD TO CART button */
+.details-container button {
+    width: 120px;
+    padding: 10px;
+    background-color: #ff6347; /* Tomato red background */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.details-container button:hover {
+    background-color: #ff4500; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.details-container button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .details-container {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .details-title {
+        font-size: 20px; /* Smaller font size for title */
+    }
+  
+    .details-price {
+        font-size: 18px; /* Smaller font size for price */
+    }
+  
+    .details-description {
+        font-size: 14px; /* Smaller font size for description */
+    }
+  
+    .details-image {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .details-container button {
+        width: 100px; /* Smaller button width on smaller screens */
+        font-size: 14px; /* Smaller font size for button text */
+    }
+}

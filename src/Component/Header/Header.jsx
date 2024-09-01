@@ -11,8 +11,10 @@ function Header() {
             <Link to="/women" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400'>WOMEN</Link>
             <Link to="/child" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' >CHILD</Link>
         </div>
-        <div className='m-2 mr-0 flex-initial flex-row w-20'> 
-          <Link to="cart" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' >CART</Link>
+        <div className='m-2 mr-0 flex-initial flex-row w-20' > 
+          <Link to="cart" style={{padding:"5px"}} className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' ><i class="fa-solid fa-cart-shopping"></i></Link>
+           <Link to="contact"  style={{padding:"5px"}}className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' ><i class="fa-solid fa-address-book"></i></Link>
+
              </div>
      </div>
     </>

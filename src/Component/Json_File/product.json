@@ -1,0 +1,290 @@
+{
+    "mens": [
+        {
+            "id": 1,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://plus.unsplash.com/premium_photo-1669850858863-6fe7bf233483?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },
+        {
+            "id": 2,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://plus.unsplash.com/premium_photo-1673734625279-2738ecf66fa1?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },{
+            "id": 3,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://images.unsplash.com/photo-1723854695853-72b191011f34?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },{
+            "id": 4,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://images.unsplash.com/photo-1623756596728-37741ffb2715?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },{
+            "id": 5,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m1.png",
+                "price": "20 $"
+        },{
+            "id": 6,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m10.png",
+            "price": "20 $"
+        },{
+            "id": 7,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m2.png",
+            "price": "20 $"
+        },{
+            "id": 8,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m3.png",
+            "price": "20 $"
+        },{
+            "id": 9,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m4.png",
+            "price": "20 $"
+        },{
+            "id": 10,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m5.png",
+            "price": "20 $"
+        },{
+            "id": 11,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m6.png",
+            "price": "20 $"
+        },{
+            "id": 12,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m7.png",
+            "price": "20 $"
+        },{
+            "id": 13,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m8.png",
+            "price": "20 $"
+        },{
+            "id": 14,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/men/m9.png",
+            "price": "20 $"
+        }
+    ],
+    "womens": [
+        {
+            "id": 21,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },{
+            "id": 22,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://images.unsplash.com/photo-1484327973588-c31f829103fe?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },
+        {
+            "id": 23,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://images.unsplash.com/photo-1485231183945-fffde7cc051e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },
+        {
+            "id": 24,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://images.unsplash.com/photo-1512068312404-09a183f541eb?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "20 $"
+        },
+        {
+            "id": 25,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w1.png",
+            "price": "20 $"
+        },
+        {
+            "id": 26,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w2.png",
+            "price": "20 $"
+        },
+        {
+            "id": 27,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w3.png",
+            "price": "20 $"
+        },
+        {
+            "id": 29,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w4.png",
+            "price": "20 $"
+        },
+        {
+            "id": 30,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w5.png",
+            "price": "20 $"
+        },
+        {
+            "id": 28,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w6.png",
+            "price": "20 $"
+        },
+        {
+            "id": 31,
+            "title": "Greay Colot Outfit",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w7.png",
+            "price": "15 $"
+        },
+        {
+            "id": 32,
+            "title": "yellow Dress",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w8.png",
+            "price": "23 $"
+        },
+        {
+            "id": 33,
+            "title": "Fit- Dress in Green",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w9.png",
+            "price": "22 $"
+        },
+        {
+            "id": 34,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/women/w10.png",
+            "price": "34 $"
+        },
+        {
+            "id": 35,
+            "title": "Fit-Shorts",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://plus.unsplash.com/premium_photo-1669138520397-9147a0a55fff?q=80&w=985&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": "25 $"
+        }
+    ],
+    "childs": [
+        {
+            "id": 41,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k1.png",
+            "price": "20 $"
+        },
+        {
+            "id": 42,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k2.png",
+            "price": "20 $"
+        },{
+            "id": 43,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k10.png",
+            "price": "20 $"
+        },{
+            "id": 44,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k3.png",
+            "price": "20 $"
+        },{
+            "id": 45,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k4.png",
+            "price": "20 $"
+        },{
+            "id": 46,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k5.png",
+            "price": "20 $"
+        },{
+            "id": 47,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k6.png",
+            "price": "20 $"
+        },{
+            "id": 48,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k7.png",
+            "price": "20 $"
+        },{
+            "id": 49,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k8.png",
+            "price": "20 $"
+        },{
+            "id": 50,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "/public/kids/k9.png",
+            "price": "20 $"
+        },{
+            "id": 51,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594683/AU/BZ/IJ/184648135/kids-clothes-1000x1000.jpg",
+            "price": "20 $"
+        },{
+            "id": 52,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594702/JQ/QM/AU/184648135/kids-clothes-1000x1000.jpg",
+            "price": "20 $"
+        },{
+            "id": 53,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594685/CY/LE/AD/184648135/kids-clothes-1000x1000.jpg",
+            "price": "20 $"
+        },{
+            "id": 54,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594687/TM/EB/MY/184648135/kids-clothes-1000x1000.jpg",
+            "price": "20 $"
+        },{
+            "id": 54,
+            "title": "Fit-Shirt",
+            "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
+            "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594689/MK/XE/AP/184648135/kids-clothes-1000x1000.jpeg",
+            "price": "20 $"
+        }
+    ]
+}
