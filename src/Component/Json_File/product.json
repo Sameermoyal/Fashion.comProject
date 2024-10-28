@@ -2,47 +2,47 @@
     "mens": [
         {
             "id": 1,
-            "title": "Fit-Shirt",
+            "title": "CAP",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://plus.unsplash.com/premium_photo-1669850858863-6fe7bf233483?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "price": "20 $"
+            "price": "22 $"
         },
         {
             "id": 2,
-            "title": "Fit-Shirt",
+            "title": "Black Coat",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://plus.unsplash.com/premium_photo-1673734625279-2738ecf66fa1?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "price": "20 $"
+            "price": "28 $"
         },{
             "id": 3,
-            "title": "Fit-Shirt",
+            "title": "White-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://images.unsplash.com/photo-1723854695853-72b191011f34?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "price": "20 $"
+            "price": "16 $"
         },{
             "id": 4,
-            "title": "Fit-Shirt",
+            "title": "Printed-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://images.unsplash.com/photo-1623756596728-37741ffb2715?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "price": "20 $"
+            "price": "25 $"
         },{
             "id": 5,
-            "title": "Fit-Shirt",
+            "title": "Green-T-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m1.png",
-                "price": "20 $"
+                "price": "12 $"
         },{
             "id": 6,
-            "title": "Fit-Shirt",
+            "title": "t-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m10.png",
-            "price": "20 $"
+            "price": "10 $"
         },{
             "id": 7,
-            "title": "Fit-Shirt",
+            "title": "Yellow-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m2.png",
-            "price": "20 $"
+            "price": "15 $"
         },{
             "id": 8,
             "title": "Fit-Shirt",
@@ -51,10 +51,10 @@
             "price": "20 $"
         },{
             "id": 9,
-            "title": "Fit-Shirt",
+            "title": "t-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m4.png",
-            "price": "20 $"
+            "price": "10 $"
         },{
             "id": 10,
             "title": "Fit-Shirt",
@@ -63,28 +63,28 @@
             "price": "20 $"
         },{
             "id": 11,
-            "title": "Fit-Shirt",
+            "title": "brown-t-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m6.png",
-            "price": "20 $"
+            "price": "7 $"
         },{
             "id": 12,
-            "title": "Fit-Shirt",
+            "title": "t-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m7.png",
-            "price": "20 $"
+            "price": "5 $"
         },{
             "id": 13,
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m8.png",
-            "price": "20 $"
+            "price": "8 $"
         },{
             "id": 14,
-            "title": "Fit-Shirt",
+            "title": "T-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/men/m9.png",
-            "price": "20 $"
+            "price": "7 $"
         }
     ],
     "womens": [
@@ -99,14 +99,14 @@
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://images.unsplash.com/photo-1484327973588-c31f829103fe?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "price": "20 $"
+            "price": "30 $"
         },
         {
             "id": 23,
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://images.unsplash.com/photo-1485231183945-fffde7cc051e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "price": "20 $"
+            "price": "8 $"
         },
         {
             "id": 24,
@@ -120,35 +120,35 @@
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/women/w1.png",
-            "price": "20 $"
+            "price": "40 $"
         },
         {
             "id": 26,
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/women/w2.png",
-            "price": "20 $"
+            "price": "30 $"
         },
         {
             "id": 27,
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/women/w3.png",
-            "price": "20 $"
+            "price": "50 $"
         },
         {
             "id": 29,
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/women/w4.png",
-            "price": "20 $"
+            "price": "27 $"
         },
         {
             "id": 30,
             "title": "Fit-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/women/w5.png",
-            "price": "20 $"
+            "price": "25 $"
         },
         {
             "id": 28,
@@ -196,95 +196,95 @@
     "childs": [
         {
             "id": 41,
-            "title": "Fit-Shirt",
+            "title": "pink-Shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k1.png",
-            "price": "20 $"
+            "price": "27 $"
         },
         {
             "id": 42,
-            "title": "Fit-Shirt",
+            "title": "Fit fraak",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k2.png",
-            "price": "20 $"
+            "price": "22 $"
         },{
             "id": 43,
-            "title": "Fit-Shirt",
+            "title": "white & yellow",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k10.png",
-            "price": "20 $"
+            "price": "52 $"
         },{
             "id": 44,
-            "title": "Fit-Shirt",
+            "title": "Fit-baby",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k3.png",
-            "price": "20 $"
+            "price": "13 $"
         },{
             "id": 45,
-            "title": "Fit-Shirt",
+            "title": "blue Fit",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k4.png",
-            "price": "20 $"
+            "price": "45 $"
         },{
             "id": 46,
-            "title": "Fit-Shirt",
+            "title": "5 paints",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k5.png",
-            "price": "20 $"
+            "price": "56 $"
         },{
             "id": 47,
-            "title": "Fit-Shirt",
+            "title": "6 combination",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k6.png",
-            "price": "20 $"
+            "price": "32 $"
         },{
             "id": 48,
-            "title": "Fit-Shirt",
+            "title": "five combination",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k7.png",
-            "price": "20 $"
+            "price": "22 $"
         },{
             "id": 49,
-            "title": "Fit-Shirt",
+            "title": "red t-shirt",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k8.png",
-            "price": "20 $"
+            "price": "29 $"
         },{
             "id": 50,
-            "title": "Fit-Shirt",
+            "title": "bear baby",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "/public/kids/k9.png",
-            "price": "20 $"
+            "price": "26 $"
         },{
             "id": 51,
-            "title": "Fit-Shirt",
+            "title": "smart look",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594683/AU/BZ/IJ/184648135/kids-clothes-1000x1000.jpg",
-            "price": "20 $"
+            "price": "27 $"
         },{
             "id": 52,
-            "title": "Fit-Shirt",
+            "title": "blue fraak",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594702/JQ/QM/AU/184648135/kids-clothes-1000x1000.jpg",
-            "price": "20 $"
+            "price": "12 $"
         },{
             "id": 53,
-            "title": "Fit-Shirt",
+            "title": "Fraak",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594685/CY/LE/AD/184648135/kids-clothes-1000x1000.jpg",
-            "price": "20 $"
+            "price": "42 $"
         },{
             "id": 54,
-            "title": "Fit-Shirt",
+            "title": "IN red",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594687/TM/EB/MY/184648135/kids-clothes-1000x1000.jpg",
-            "price": "20 $"
+            "price": "44 $"
         },{
-            "id": 54,
-            "title": "Fit-Shirt",
+            "id": 55,
+            "title": "kurti",
             "description": "vdv dsf er dxcr fg c ewf fdxvcer fxcv f",
             "img": "https://5.imimg.com/data5/SELLER/Default/2023/6/317594689/MK/XE/AP/184648135/kids-clothes-1000x1000.jpeg",
-            "price": "20 $"
+            "price": "22 $"
         }
     ]
 }

@@ -8,13 +8,17 @@ function Home() {
   const[womensProducts,setWomensProducts]=useState([]);
   const[childsProducts,setChildsProducts]=useState([]);
    
+
+
    function dataFetch(){
-    setMensProducts(jsonData.mens);
-    setWomensProducts(jsonData.womens);
-    setChildsProducts(jsonData.childs);
+    setMensProducts((jsonData.mens).slice(0,4));
+    setWomensProducts((jsonData.womens).slice(0,4));
+    setChildsProducts((jsonData.childs).slice(0,4));
 
    }
 
+     
+ 
    useEffect(()=>
      dataFetch(),[]
   )
@@ -28,10 +32,11 @@ function Home() {
           {mensProducts.map((item) => (
             
             <div key={item.id} className="product-card">
+               <Link to={`/Details/${item.id}`}>
               <img src={item.img} alt={item.title} />
-              <Link to={`/Details/${item.id}`}><div className="product-title">{item.title}</div></Link>
+             <div className="product-title">{item.title}</div>
               <div className="product-price">{item.price}</div>
-              <div className="product-description">{item.description}</div>
+              <div className="product-description">{item.description}</div></Link>
             </div>
           ))}
         </div>
@@ -43,10 +48,11 @@ function Home() {
         <div className="product-container">
           {womensProducts.map((item) => (
             <div key={item.id} className="product-card">
+             <Link to={`/Details/${item.id}`}>
               <img src={item.img} alt={item.title} />
-              <Link to={`/Details/${item.id}`}> <div className="product-title">{item.title}</div></Link>
+               <div className="product-title">{item.title}</div>
               <div className="product-price">{item.price}</div>
-              <div className="product-description">{item.description}</div>
+              <div className="product-description">{item.description}</div></Link>
             </div>
           ))}
         </div>
@@ -58,10 +64,11 @@ function Home() {
         <div className="product-container">
           {childsProducts.map((item) => (
             <div key={item.id} className="product-card">
+               <Link to={`/Details/${item.id}`}>
               <img src={item.img} alt={item.title} />
-              <Link to={`/Details/${item.id}`}><div className="product-title">{item.title}</div></Link>
+            <div className="product-title">{item.title}</div>
               <div className="product-price">{item.price}</div>
-              <div className="product-description">{item.description}</div>
+              <div className="product-description">{item.description}</div></Link>
             </div>
           ))}
         </div>

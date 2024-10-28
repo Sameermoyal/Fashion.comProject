@@ -19,7 +19,7 @@ function Details() {
         <h2>Details Page</h2>
         {prod.map((item) => (
           
-            <div  key={item.key}>
+            <div  key={item.key} style={{border: "2px solid skyblue",display :"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
             <img className="details-image" src={item.img} alt={item.title} />
             <div className="details-title">{item.title}</div>
             <div className="details-price">{item.price}</div>

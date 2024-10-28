@@ -12,6 +12,8 @@ import Blog from './Component/Blog/Blog'
 import Contact from './Component/Contact/Contact'
 import { Route,Routes} from 'react-router-dom'
 import Details from './Component/Details/Details'
+import Signin from './Component/Login/Signin'
+import Signup from './Component/Login/Signup'
 function App() {
   return (
     <>
@@ -27,6 +29,9 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/signin" element={<Signin/>}/>
+      <Route path="/signup" element={<Signup/>}/>
+   
     </Routes>
 
     <Footer/>

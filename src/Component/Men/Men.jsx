@@ -6,15 +6,20 @@ function Men() {
   const [mensProducts,setMensProducts]=useState([]);
 useEffect(()=>setMensProducts(jsonData.mens) ,[])
 
-  
+const [search, setSearch] = useState('');
+const filterData= mensProducts.filter((ele)=>ele.title.toLowerCase().includes(search.toLocaleLowerCase()))
+
   return (
    <>
    <div className="home-container">
+    
+   <input type='text' placeholder='search value' value={search} 
+       onChange={(e)=>setSearch(e.target.value)} />
      
     <div className="section">
         <h2>Men's Collection</h2>
         <div className="product-container">
-          {mensProducts.map((item) => (
+          {filterData.map((item) => (
             
             <div key={item.id} className="product-card">
               <Link to={`/Details/${item.id}`}>

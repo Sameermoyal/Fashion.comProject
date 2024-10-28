@@ -5,7 +5,7 @@ function Header() {
     <>
      <div className='m-0 p-5  text-white bg-blue-900 flex'>
         <div className= 'm-2  flex-none font-bold  hover:text-orange-600 hover:font-extrabold' >FASHION.COM</div>
-        <div className='m-2 flex-auto w-64  flex'> 
+        <div className='m-2  flex-auto w-54 flex justify-center  '> 
             <Link to ="/" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400'>HOME</Link>
             <Link to="/men" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400'>MEN</Link>
             <Link to="/women" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400'>WOMEN</Link>
