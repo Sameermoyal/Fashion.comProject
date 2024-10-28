@@ -19,7 +19,8 @@ function App() {
     <>
     <Header/>
     <Routes>
-      <Route path ="/" element ={<Home/>}/>
+    
+    <Route path="/" element={<Home />} />
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>}/>
       <Route path="/child" element={<Child/>}/>
@@ -30,8 +31,8 @@ function App() {
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/signin" element={<Signin/>}/>
-      <Route path="/signup" element={<Signup/>}/>
-   
+      <Route path="/signup" element={<Signup />} />
+      
     </Routes>
 
     <Footer/>

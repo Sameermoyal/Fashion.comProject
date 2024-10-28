@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./Signup.css"
 function Signup() {
  const[username,setUsername]=useState('');
@@ -7,7 +8,7 @@ function Signup() {
  const[email,setEmail]=useState('');
  const[cPassword,setCPassword]=useState('');
  const [phone, setPhone] = useState('');
-
+ const navigate = useNavigate();
  const [userData,setUserData]=useState({
     username: '',
     password: '',
@@ -18,7 +19,8 @@ function Signup() {
  const handleSubmit =(e)=>{
     e.preventDefault();
     console.log(username,password,email,cPassword,phone)
- }
+    navigate('/home'); 
+}
 
  
   return (
