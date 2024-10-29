@@ -14,7 +14,7 @@ function Child() {
     <>
     <div className="home-container">
     <input type='text' placeholder='search value' value={search} 
-       onChange={(e)=>setSearch(e.target.value)} />
+       onChange={(e)=>setSearch(e.target.value)} style={{ backgroundColor: 'purple', color: 'white', padding: '8px', borderRadius: '4px' }}/>
      
      <div className="section">
          <h2>Women's Collection</h2>

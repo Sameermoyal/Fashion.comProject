@@ -13,8 +13,8 @@ const filterData= mensProducts.filter((ele)=>ele.title.toLowerCase().includes(se
    <>
    <div className="home-container">
     
-   <input type='text' placeholder='search value' value={search} 
-       onChange={(e)=>setSearch(e.target.value)} />
+   <input type='text' placeholder='search value'  value={search} 
+       onChange={(e)=>setSearch(e.target.value)} style={{ backgroundColor: 'purple', color: 'white', padding: '8px', borderRadius: '4px' }} />
      
     <div className="section">
         <h2>Men's Collection</h2>
