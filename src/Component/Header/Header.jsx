@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-function Header() {
+function Header({ toggleTheme, isDarkTheme }) {
   return (
     <>
      <div className='m-0 p-5  text-white bg-blue-900 flex'>
@@ -14,7 +14,9 @@ function Header() {
         <div className='m-2 mr-0 flex-initial flex-row w-20' > 
           <Link to="cart" style={{padding:"5px"}} className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' ><i class="fa-solid fa-cart-shopping"></i></Link>
            <Link to="contact"  style={{padding:"5px"}}className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' ><i class="fa-solid fa-address-book"></i></Link>
-
+           <button onClick={toggleTheme}>
+          {isDarkTheme ? 'Light Theme' : 'Dark Theme'}
+          </button>
              </div>
      </div>
     </>
