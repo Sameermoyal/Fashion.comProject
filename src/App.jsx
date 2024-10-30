@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import Header from './Component/Header/Header'
 import Home from './Component/Home/Home'
 import Footer from './Component/Footer/Footer'
@@ -14,12 +15,22 @@ import { Route,Routes} from 'react-router-dom'
 import Details from './Component/Details/Details'
 import Signin from './Component/Login/Signin'
 import Signup from './Component/Login/Signup'
+import "./App.css"
 function App() {
+
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
+  
+  const toggleTheme =()=>{
+    setIsDarkTheme(pervTheme=>!pervTheme)
+  }
   return (
-    <>
-    <Header/>
+    
+    <div className={isDarkTheme ? 'dark-theme' : 'light-theme'}>
+    <Header toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
     <Routes>
-      <Route path ="/" element ={<Home/>}/>
+    
+    <Route path="/" element={<Home />} />
       <Route path="/men" element={<Men/>} />
       <Route path="/women" element={<Women/>}/>
       <Route path="/child" element={<Child/>}/>
@@ -30,12 +41,12 @@ function App() {
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/signin" element={<Signin/>}/>
-      <Route path="/signup" element={<Signup/>}/>
-   
+      <Route path="/signup" element={<Signup />} />
+      
     </Routes>
 
     <Footer/>
-    </>
+    </div>
   )
 }
 

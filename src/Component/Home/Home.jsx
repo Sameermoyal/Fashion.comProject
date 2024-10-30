@@ -27,7 +27,7 @@ function Home() {
     <div className="home-container">
       {/* Men's Section */}
       <div className="section">
-        <h2>Men's Collection</h2>
+        <h2 >Men's Collection</h2>
         <div className="product-container">
           {mensProducts.map((item) => (
             

@@ -13,7 +13,7 @@ function Child() {
   return (
     <>
     <div className="home-container">
-    <input type='text' placeholder='search value' value={search} 
+    <input type='text' placeholder='search value' value={search}  style={{backgroundColor:"orange",color:"white",border:"2px solid black",fontSize:"20px"}}
        onChange={(e)=>setSearch(e.target.value)} />
      
      <div className="section">
