@@ -1,26 +1,34 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
+
 function Header({ toggleTheme, isDarkTheme }) {
   return (
-    <>
-     <div className='m-0 p-5  text-white bg-blue-900 flex'>
-        <div className= 'm-2  flex-none font-bold  hover:text-orange-600 hover:font-extrabold' >FASHION.COM</div>
-        <div className='m-2  flex-auto w-54 flex justify-center  '> 
-            <Link to ="/" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400'>HOME</Link>
-            <Link to="/men" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400'>MEN</Link>
-            <Link to="/women" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400'>WOMEN</Link>
-            <Link to="/child" className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' >CHILD</Link>
-        </div>
-        <div className='m-2 mr-0 flex-initial flex-row w-20' > 
-          <Link to="cart" style={{padding:"5px"}} className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' ><i class="fa-solid fa-cart-shopping"></i></Link>
-           <Link to="contact"  style={{padding:"5px"}}className='flex-auto w-16 hover:font-bold  hover:text-yellow-400' ><i class="fa-solid fa-address-book"></i></Link>
-           <button onClick={toggleTheme}>
+    <header className="header-container">
+      <div className="logo">
+        <Link to="/">FASHION.COM</Link>
+      </div>
+
+      <nav className="nav-links">
+        <Link to="/" className="nav-link">HOME</Link>
+        <Link to="/men" className="nav-link">MEN</Link>
+        <Link to="/women" className="nav-link">WOMEN</Link>
+        <Link to="/child" className="nav-link">CHILD</Link>
+      </nav>
+
+      <div className="action-buttons">
+        <Link to="/cart" className="icon-link">
+          <i className="fa-solid fa-cart-shopping"></i>
+        </Link>
+        <Link to="/contact" className="icon-link">
+          <i className="fa-solid fa-address-book"></i>
+        </Link>
+        <button onClick={toggleTheme} className="theme-toggle-button">
           {isDarkTheme ? 'Light Theme' : 'Dark Theme'}
-          </button>
-             </div>
-     </div>
-    </>
-  )
+        </button>
+      </div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
